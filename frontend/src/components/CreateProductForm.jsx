@@ -15,6 +15,8 @@ const categories = [
   "dresses",
   "watches",
   "accessories",
+  "caps",
+  "shorts",
 ];
 const CreateProductForm = () => {
   const [newProduct, setNewProduct] = useState({
