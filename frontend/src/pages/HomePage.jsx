@@ -16,6 +16,15 @@ const categories = [
   { href: "/accessories", name: "Accessories", imageUrl: "/accessories.jpg" },
   { href: "/caps", name: "Caps", imageUrl: "/caps.jpg" },
   { href: "/shorts", name: "Shorts", imageUrl: "/shorts.jpg" },
+  { href: "/pants", name: "Pants", imageUrl: "/pants.jpg" },
+  { href: "/sweaters", name: "Sweaters", imageUrl: "/sweaters.jpg" },
+  { href: "/skirts", name: "Skirts", imageUrl: "/skirts.jpg" },
+  { href: "/sandals", name: "Sandals", imageUrl: "/sandals.jpg" },
+  { href: "/socks", name: "Socks", imageUrl: "/socks.jpg" },
+  { href: "/belts", name: "Belts", imageUrl: "/belts.jpg" },
+  { href: "/wallets", name: "Wallets", imageUrl: "/wallets.jpg" },
+  { href: "/underwear", name: "Underwear", imageUrl: "/underwear.jpg" },
+  { href: "/activewear", name: "Activewear", imageUrl: "/activewear.jpg" },
 ];
 
 const HomePage = () => {
@@ -35,7 +44,7 @@ const HomePage = () => {
           Shop by Category
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-10">
           {categories.map((category) => (
             <CategoryItem category={category} key={category.name} />
           ))}

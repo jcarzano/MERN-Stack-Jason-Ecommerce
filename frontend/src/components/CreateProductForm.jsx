@@ -17,6 +17,16 @@ const categories = [
   "accessories",
   "caps",
   "shorts",
+  "shirts",
+  "pants",
+  "sweaters",
+  "skirts",
+  "sandals",
+  "socks",
+  "belts",
+  "wallets",
+  "underwear",
+  "activewear",
 ];
 const CreateProductForm = () => {
   const [newProduct, setNewProduct] = useState({
