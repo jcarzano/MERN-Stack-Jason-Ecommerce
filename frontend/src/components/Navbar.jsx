@@ -24,6 +24,7 @@ const Navbar = () => {
           >
             Shappiii
           </Link>
+		  
 
           <nav className="flex flex-wrap items-center gap-4">
             <Link

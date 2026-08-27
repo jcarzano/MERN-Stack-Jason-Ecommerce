@@ -17,7 +17,6 @@ const categories = [
   "accessories",
   "caps",
   "shorts",
-  "shirts",
   "pants",
   "sweaters",
   "skirts",
